@@ -5,18 +5,7 @@ import Apple from "./component/Apple";
 //const Flight = React.lazy(() => import("./component/Flight"));
 
 function App() {
-  return (
-    <>
-      <Suspense fallback={<Loader />}>
-        {setTimeout(
-          () => (
-            <Apple />
-          ),
-          3000
-        )}
-      </Suspense>
-    </>
-  );
+  return <>Hello World</>;
 }
 
 export default App;
